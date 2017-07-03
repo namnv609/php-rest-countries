@@ -1,0 +1,27 @@
+{
+    "name": "namnv609/php-rest-countries",
+    "description": "PHP API client for RestCountries.EU",
+    "keywords": ["rest countries", "restful api", "restcountries.eu", "countries"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "NamNV609",
+            "email": "namnv609@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "NNV\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.5",
+        "guzzlehttp/guzzle": "^6.1"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^3.0",
+        "psy/psysh": "^0.7"
+    }
+}
