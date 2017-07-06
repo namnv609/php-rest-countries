@@ -72,7 +72,7 @@ class RestCountries
      * @param  string|array $codes ISO country codes
      * @return \NNV\RestCountries::execute
      */
-    public function byCode($codes)
+    public function byCodes($codes)
     {
         if (is_array($codes)) {
             return $this->execute("alpha", [
