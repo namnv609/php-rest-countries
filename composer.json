@@ -19,9 +19,5 @@
     "require": {
         "php": ">=5.5",
         "guzzlehttp/guzzle": "^6.1"
-    },
-    "require-dev": {
-        "symfony/var-dumper": "^3.0",
-        "psy/psysh": "^0.7"
     }
 }
