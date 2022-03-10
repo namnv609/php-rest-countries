@@ -23,7 +23,7 @@ class RestCountries
     public function __construct()
     {
         $this->guzzleClient = new Client([
-            "base_uri" => "https://restcountries.eu/rest/v2/",
+            "base_uri" => "https://restcountries.com/v2/",
         ]);
         $this->fields = [];
     }
